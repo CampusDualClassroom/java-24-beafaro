@@ -22,6 +22,8 @@ public class Exercise24 {
 
     public static void main(String[] args) {
         Queue<String> cola = createQueue();
+
+        System.out.println("El elemento que está en la cima es: " + cola.peek());
         printAndEmptyQueue(cola);
     }
 
